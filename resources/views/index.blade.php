@@ -3,7 +3,7 @@
 <x-head />
 <body>
     <div class="flex justify-center flex-col">
-        <h1 class="text-gray-600 text-center my-20 md:text-4xl lg:text-6xl lg:my-32">Elija su fase y su grupo.</h1>
+        <h1 class="text-gray-600 text-center my-20 text-3xl md:text-4xl lg:text-6xl lg:my-32">Elija su fase y su grupo.</h1>
         <div class="flex mx-auto">
             <div>
                 <button id="fase1" class="flex sm:block mx-32 px-20 py-3 lg:text-3xl text-gray-button transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 1</button>
