@@ -20,7 +20,7 @@
             
             <div>
 
-                <button id="fase2" class="flex mx-32 px-20 py-3 text-3xl text-gray-button transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 11</button>
+                <button id="fase2" class="flex sm:block mx-32 px-20 py-3 text-3xl text-gray-button transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 11</button>
             
                 <div id="groups2" class="grid grid-cols-3 absolute my-5 animate-fade-in-down hidden">
 
