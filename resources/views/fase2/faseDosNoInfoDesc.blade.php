@@ -3,7 +3,7 @@
 <x-head />
 <body>
 
-    <h1 class="text-6xl text-center mt-16 text-gray-600">Puntúe la siguiente imagen</h1>
+    <x-title />
     
     <form action="{{ route('resultsFase2Desc')}}" method="POST">
     @csrf

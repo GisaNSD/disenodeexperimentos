@@ -1,0 +1,1 @@
+<h1 class="text-6xl text-center mt-16 text-gray-600">Puntúe las siguientes imagenes</h1>
