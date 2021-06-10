@@ -3,7 +3,7 @@
 <x-head />
 <body>
     <div class="flex justify-center flex-col">
-        <h1 class="text-3xl lg:text-6xl lg:text-gray-600 lg:text-center lg:my-32 ">Selecciona una fase</h1>
+        <h1 class="sm:text-3xl lg:text-6xl lg:text-gray-600 lg:text-center lg:my-32 ">Selecciona una fase</h1>
         <div class="flex mx-auto">
             <div>
                 <button id="fase1" class="flex mx-32 px-20 py-3 text-3xl text-gray-button transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 1</button>
