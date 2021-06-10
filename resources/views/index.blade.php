@@ -6,7 +6,7 @@
         <h1 class="text-gray-600 text-center my-20 text-3xl md:text-4xl lg:text-6xl lg:my-32">Elija su fase y su grupo.</h1>
         <div class="lg:flex mx-auto">
             <div>
-                <button id="fase1" class="flex block justify-center mx-4 px-10 py-3 text-gray-button text-xl md:my-10 lg:inline-block lg:mx-32 lg:px-20  lg:text-3xl  transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 1</button>
+                <button id="fase1" class="flex block justify-center mx-4 px-10 py-3 text-gray-button text-xl md:my-7 lg:inline-block lg:mx-32 lg:px-20  lg:text-3xl  transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 1</button>
                 
                 <div id="groups1" class="flex flex-col justify-center lg:flex-row lg:mx-automy-12 lg:my-5 animate-fade-in-down hidden">
                     <a href="{{route('fase1', 1)}}">
@@ -20,7 +20,7 @@
             
             <div>
 
-                <button id="fase2" class="flex block mx-4 my-4 lg:my-10 px-10 py-3 text-gray-button text-xl lg:inline-block lg:mx-32 lg:px-20  lg:text-3xl transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 11</button>
+                <button id="fase2" class="flex block mx-4 my-4 lg:my-7 px-10 py-3 text-gray-button text-xl lg:inline-block lg:mx-32 lg:px-20  lg:text-3xl transition duration-500 ease-in-out bg-blue-button hover:bg-gray-button hover:text-blue-button transform hover:-translate-y-1 hover:scale-110 ">Fase 11</button>
             
                 <div id="groups2" class="grid grid-cols-1 justify-center md:grid-cols-2 md:my-3 lg:grid-cols-3 absolute lg:my-5 animate-fade-in-down hidden">
 
