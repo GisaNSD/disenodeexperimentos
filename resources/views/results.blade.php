@@ -9,10 +9,7 @@
     
     <p class="text-center font-bold text-4xl my-10">{{ $finalNumber }}</span>
     
-    <p class="text-center text-2xl mx-80">
-    Sus respuestas serán utilizadas en un experimento realizado para la asignatura de "Diseño de experimentos" de la Universidad Autónoma de Barcelona. </p>
-    <!-- <div class="flex justify-center mx-auto my-10">
-        <x-button>Enviar</x-button>
-    </div> -->
+    <p class="text-center mx-10 text-2xl lg:mx-80">Sus respuestas serán utilizadas en un experimento realizado para la asignatura de "Diseño de experimentos" de la Universidad Autónoma de Barcelona. </p>
+ 
 </body>
 </html>
