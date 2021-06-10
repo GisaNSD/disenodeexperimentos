@@ -9,7 +9,7 @@
     
     <p class="text-center my-7 font-bold text-4xl lg:my-10">{{ $finalNumber }}</span>
     
-    <p class="text-center mx-5 text-2xl lg:mx-80">Sus respuestas serán utilizadas en un experimento realizado para la asignatura de "Diseño de experimentos" de la Universidad Autónoma de Barcelona. </p>
+    <p class="text-center text-xl mx-5 lg:text-2xl lg:mx-80">Sus respuestas serán utilizadas en un experimento realizado para la asignatura de "Diseño de experimentos" de la Universidad Autónoma de Barcelona. </p>
  
 </body>
 </html>
