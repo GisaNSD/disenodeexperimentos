@@ -3,7 +3,7 @@
 <x-head />
 <body>
     
-    <h1 class="text-center mt-14 text-5xl lg:mt-32 mb-16 text-gray-600">MUCHAS GRACIAS</h1>
+    <h1 class="text-center text-3xl mt-14 mb-10 lg:text-5xl lg:mt-32 lg:mb-16 text-gray-600">MUCHAS GRACIAS</h1>
     
     <p class="text-center text-2xl">Su resultado es: </p>
     
