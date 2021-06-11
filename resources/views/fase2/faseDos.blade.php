@@ -18,7 +18,7 @@
                 </figure>
                 
             <div class="flex flex-col justify-center">
-                <label for="points{{$image->id}}" class="text-center m-4 font-bold">Puntuación:<p id="valor" class="font-bold"></p></label>
+                <x-puntuacion />
                
                 <input name="points{{$image->id}}" id="myRange" class="h-auto w-3/6 m-auto" type="range" value="5" min=0 max=10 step="0.01">
                

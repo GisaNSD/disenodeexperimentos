@@ -1,0 +1,1 @@
+<label for="points{{$image->id}}" class="text-center m-4 select-none">Puntuación:</label>
