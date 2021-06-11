@@ -10,7 +10,7 @@
         @foreach($images as $image)
         <img class="flex mx-auto mt-16 mb-4 h-96 w-auto shadow-lg" src="{{asset($image->link)}}">
         <div class="flex flex-col justify-center">
-            <x-puntuacion />
+            <label for="points{{$image->id}}" class="text-center m-4 select-none">Puntuación:</label>
             
             <input name="points{{$image->id}}" id="myRange" class="h-auto w-3/6 m-auto" type="range" value="5" min=0 max=10 step="0.01">
             
