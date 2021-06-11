@@ -9,10 +9,10 @@
     @csrf
         @foreach($images as $image)
         <div class="mb-20">
-                <h3 class="text-xl text-center mt-10 mb-3 font-bold font-serif">"{{$image->title}}" - {{$image->author}}</h3>
+                <h3 class="text-xl text-center mt-10 mb-3 font-bold font-serif select-none">"{{$image->title}}" - {{$image->author}}</h3>
                 <figure>
-                <img class="mx-auto mb-4 h-96 w-auto shadow-lg" src="{{asset($image->link)}}">
-                <figcaption class="text-center">
+                <img class="mx-auto mb-4 h-96 w-auto shadow-lg select-none" src="{{asset($image->link)}}">
+                <figcaption class="text-center select-none">
                     <span class="font-bold ml-2">Location: </span>{{$image->location}} 
                     <span class="font-bold ml-2">Price: </span>{{$image->price}}</figcaption>
                 </figure>

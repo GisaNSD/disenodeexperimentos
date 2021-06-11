@@ -8,7 +8,7 @@
     <form action="{{ route('resultsFase2Asc')}}" method="POST">
     @csrf
         @foreach($images as $image)
-        <img class="flex mx-auto mt-16 mb-4 h-96 w-auto shadow-lg" src="{{asset($image->link)}}">
+        <img class="flex mx-auto mt-16 mb-4 h-96 w-auto shadow-lg select-none" src="{{asset($image->link)}}">
         <div class="flex flex-col justify-center">
             <label for="points{{$image->id}}" class="text-center m-4 select-none">Puntuación:</label>
             
